@@ -1,0 +1,9 @@
+name: 'test_dart'
+version: 0.0.1
+description:
+  Teste with DART
+homepage: https://lags.dev/test_dart/news
+repository: https://github.com/luiz-antonio/test_dart
+environment:
+  sdk: '>=2.10.0 <3.0.0'
+  
