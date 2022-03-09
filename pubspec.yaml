@@ -18,6 +18,25 @@ environment:
 dependencies: 
   block: ^8.0.0
   http: ^14.3.2
+  my_package:
+    hosted:
+      name: test_dart_package
+      url: https://www.lags.com/test_datr/package
+  my_package2:
+    git: https://github.com/luiz-antonio/test_dart
+    ref: master
+  package_a:
+    path: packages/package_a
+  package_b:
+    path: packages/package_b
+  package_c:
+    path: packages/package_c
+  flutter_driver:
+    sdk: flutter
+    version: ^0.0.1
+  
+  # pub.dev  PATH > Win32 ----> %LOCALAPPDATA%\Pub\Cache  or PUB_CACHE env user var 
+  #                 Linux & macos ------>  .pub-cache in your home dir
 
 dev_dependencies:
   test: '>=1.15.0 <2.0.0'

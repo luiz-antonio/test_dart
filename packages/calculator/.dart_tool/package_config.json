@@ -1,0 +1,14 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "calculator",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    }
+  ],
+  "generated": "2022-03-09T15:48:47.219823Z",
+  "generator": "pub",
+  "generatorVersion": "2.16.1"
+}
