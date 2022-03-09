@@ -6,11 +6,14 @@ homepage: https://lags.dev/test_dart/news
 repository: https://github.com/luiz-antonio/test_dart
 issue-tracker:  https://github.com/luiz-antonio/test_dart/issues
 documentation: https://lags.dev/test_dart/docs
-environment:
-  sdk: '>=2.10.0 <3.0.0'
 
 executables:
   test_dart: main
+
+publish_to: none
+
+environment:
+  sdk: '>=2.10.0 <3.0.0'
 
 dependencies: 
   block: ^8.0.0
@@ -18,5 +21,5 @@ dependencies:
 
 dev_dependencies:
   test: '>=1.15.0 <2.0.0'
-  
+
 
